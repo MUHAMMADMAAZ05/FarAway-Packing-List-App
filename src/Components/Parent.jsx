@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Form from './Form'; 
-import { ItemList } from './ItemList';
-import  {Stats } from './Stats';
+import Form from '../Components/Form'; 
+import  ItemList  from '../Components/ItemList';
+import  Stats  from '../Components/Stats';
 
 const Parent = () => {
     const [sharedlist,setSharedList]=useState([
