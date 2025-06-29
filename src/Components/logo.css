@@ -1,0 +1,35 @@
+/* Logo.css */
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #f0f4f8, #dbeafe);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 22px;
+  font-weight: bold;
+  color: #1f2937;
+  max-width: 100%;
+  width: 100%;
+  margin: 20px auto;
+  transition: background 0.3s ease;
+}
+
+.logo-container:hover {
+  background: linear-gradient(135deg, #e0f2fe, #bfdbfe);
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.logo-image:hover {
+  transform: scale(1.1);
+}
