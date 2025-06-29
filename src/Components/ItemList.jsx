@@ -75,3 +75,5 @@ export const ItemList = ({ list,onClear,setSharedList}) => {
     </div>
   );
 };
+
+export default ItemList;

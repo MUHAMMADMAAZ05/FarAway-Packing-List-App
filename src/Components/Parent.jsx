@@ -13,9 +13,6 @@ const Parent = () => {
     { item: 'Visa', quantity: 1, isCompleted: false },
   ])
   
-
-  // console.log(sharedlist,"==>shared items")
-  
   const clearList = () => setSharedList([]);
 
   return (

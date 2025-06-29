@@ -20,3 +20,6 @@ export const Stats = ({list}) => {
     </div>
   );
 };
+
+
+export default Stats;
