@@ -1,5 +1,5 @@
 import React from 'react';
-import './Logo.css';
+import './logo.css';
 
 export const Logo = () => {
     let image1= <img className='logo-image'  
